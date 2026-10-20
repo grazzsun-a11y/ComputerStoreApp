@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="42a05c1a7b664d68a75628de02581da7" Name="Diagram1">
+        <EntityTypeShape EntityType="ComputerStoreDBModel.Categories" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ComputerStoreDBModel.OrderItems" Width="1.5" PointX="7.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ComputerStoreDBModel.Orders" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ComputerStoreDBModel.Products" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ComputerStoreDBModel.Roles" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ComputerStoreDBModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ComputerStoreDBModel.Users" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="ComputerStoreDBModel.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="ComputerStoreDBModel.FK_OrderItems_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="ComputerStoreDBModel.FK_OrderItems_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="ComputerStoreDBModel.FK_Orders_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="ComputerStoreDBModel.FK_Users_Roles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

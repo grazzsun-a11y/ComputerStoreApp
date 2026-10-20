@@ -1,0 +1,16 @@
+﻿<Page x:Class="ComputerStoreApp.PageLogin"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="300">
+        <TextBlock Text="Вход" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+        <TextBlock Text="Email"/>
+        <TextBox x:Name="TxtEmail" Height="25" Margin="0,5,0,10"/>
+        <TextBlock Text="Пароль"/>
+        <PasswordBox x:Name="TxtPass" Height="25" Margin="0,5,0,15"/>
+        <Button Content="Войти" Height="30" Click="BtnLogin_Click"/>
+        <Button Content="Войти как гость" Height="30" Margin="0,5,0,0" Click="BtnGuest_Click"/>
+        <TextBlock Text="Нет аккаунта?" HorizontalAlignment="Center" Margin="0,15,0,5"/>
+        <Button Content="Зарегистрироваться" Height="30" Click="BtnToReg_Click" Background="#3498db" Foreground="White"/>
+        <TextBlock x:Name="TxtError" Foreground="Red" Margin="0,10,0,0" HorizontalAlignment="Center"/>
+    </StackPanel>
+</Page>
